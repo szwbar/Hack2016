@@ -9,6 +9,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+
     private Button signInButton;
 
     @Override
@@ -31,14 +32,17 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
 
-                    if (approveUser(userNameTxt, passwordTxt)) {
 
 
-                    } else {
-                        // TODO USER NOT RECOGNIZED, POP UP
-                        userName.setText("");
-                        password.setText("");
-                    }
+//                    if (approveUser(userNameTxt, passwordTxt)) {
+//                        // TODO Tal's func
+//
+//
+//                    } else {
+//                        // TODO USER NOT RECOGNIZED, POP UP
+//                        userName.setText("");
+//                        password.setText("");
+//                    }
                 }
 
             }

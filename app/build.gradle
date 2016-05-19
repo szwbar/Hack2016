@@ -24,3 +24,14 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.+'
 }
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/orcam/maven'
+    }
+}
+
+dependencies {
+    compile 'com.orcam.orcam_sdk:my-me-sdk:0.1.4'
+}
+
